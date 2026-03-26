@@ -25,12 +25,11 @@ Pensando em boas práticas, escalabilidade e manutenabilidade, o projeto foi est
 2. Clone este repositório ou baixe os arquivos para o seu computador.
 3. Abra o terminal na raiz do projeto e entre na pasta do código digitando:
 
-   ```bash
-   cd case-einstein
-   ```
+```bash
+cd case-einstein
+
 Em seguida, execute o arquivo principal com o comando:
 
-    ```bash
 python main.py
-    ```
+
 Os resultados do processamento (acertos, aproveitamento individual e média geral) serão exibidos diretamente no terminal.
