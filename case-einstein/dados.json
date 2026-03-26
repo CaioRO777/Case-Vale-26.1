@@ -1,0 +1,17 @@
+{
+  "gabarito": ["A", "B", "C", "D", "E", "A", "B", "C", "D", "E"],
+  "alunos": [
+    {
+      "nome": "Ana Silva",
+      "respostas": ["A", "B", "C", "D", "E", "A", "B", "C", "D", "A"] 
+    },
+    {
+      "nome": "Carlos Souza",
+      "respostas": ["B", "B", "C", "A", "E", "A", "B", "C", "A", "E"]
+    },
+    {
+      "nome": "Beatriz Lima",
+      "respostas": ["A", "B", "C", "D", "E", "A", "B", "C", "D", "E"] 
+    }
+  ]
+}
