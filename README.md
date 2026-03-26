@@ -24,9 +24,11 @@ Pensando em boas práticas, escalabilidade e manutenabilidade, o projeto foi est
 1. Certifique-se de ter o **Python 3** instalado em sua máquina.
 2. Clone este repositório ou baixe os arquivos para o seu computador.
 3. Abra o terminal na raiz do projeto e entre na pasta do código digitando:
-Bash
+
+```bash
 cd case-einstein
+```
 4. Em seguida, execute o arquivo principal com o comando:
-Bash
 python main.py
-5. Os resultados do processamento (acertos, aproveitamento individual e média geral) serão exibidos diretamente no terminal.
+
+Os resultados do processamento (acertos, aproveitamento individual e média geral) serão exibidos diretamente no terminal.
