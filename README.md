@@ -1,41 +1,30 @@
-Case Vale do Silício - Einstein Floripa 🚀
+# Case Vale do Silício - Einstein Floripa 🚀
 
-Este projeto foi desenvolvido como resolução da Opção 2 - Case de Programação (Automação de Dados) para o processo seletivo do departamento Vale do Silício do Einstein Floripa.
+Este projeto foi desenvolvido como resolução da **Opção 2 - Case de Programação (Automação de Dados)** para o processo seletivo do departamento Vale do Silício do Einstein Floripa.
 
-🎯 Objetivo
-
+## 🎯 Objetivo
 Automatizar o tratamento de dados de simulados da organização. O programa recebe o gabarito oficial e as respostas dos alunos, gerando métricas essenciais como o número de acertos, percentual individual e a média geral da turma.
 
-🛠️ Tecnologias Utilizadas
+## 🛠️ Tecnologias Utilizadas
+* **Python 3:** Linguagem principal escolhida por ser eficiente na manipulação de dados e alinhada com as tecnologias do Einstein Floripa.
+* **JSON:** Utilizado para simular a entrada de dados (banco de dados fictício), facilitando a leitura e escalabilidade futura.
 
-Python 3: Linguagem principal escolhida por sua eficiência na manipulação de dados e alinhamento com a stack do Einstein Floripa.
-
-JSON: Utilizado para simular a entrada de dados (banco de dados fictício), facilitando a leitura e escalabilidade futura.
-
-🗂️ Arquitetura e Organização do Código
-
+## 🗂️ Arquitetura e Organização do Código
 Pensando em boas práticas, escalabilidade e manutenabilidade, o projeto foi estruturado da seguinte forma:
+* **case-einstein/dados.json:** Armazena os dados fictícios (gabarito oficial e respostas dos alunos).
+* **case-einstein/processador.py:** Contém as funções lógicas para os cálculos (acertos, percentuais e médias). A regra de negócio está isolada aqui.
+* **case-einstein/main.py:** O ficheiro principal que faz a leitura dos dados, chama as funções e exibe os resultados no terminal.
 
-case-einstein/dados.json: Armazena o mock de dados (gabarito oficial e respostas dos alunos).
+## 🚀 Como Executar o Projeto
 
-case-einstein/processador.py: Contém as funções lógicas puras para cálculos (acertos, percentuais e médias). Isolamos a regra de negócio aqui.
+**Passo 1:** Certifique-se de ter o Python 3 instalado no seu computador.
 
-case-einstein/main.py: O arquivo principal que orquestra a leitura dos dados, chama as funções de processamento e exibe os resultados no terminal.
+**Passo 2:** Clone este repositório ou descarregue os ficheiros.
 
-🚀 Como Executar o Projeto
+**Passo 3:** Abra o terminal na raiz do projeto e entre na pasta do código digitando:
+> cd case-einstein
 
-Certifique-se de ter o Python 3 instalado em sua máquina.
+**Passo 4:** Em seguida, execute o ficheiro principal com o comando:
+> python main.py
 
-Clone este repositório ou baixe os arquivos para o seu computador.
-
-Abra o terminal na raiz do projeto e entre na pasta do código digitando:
-
-cd case-einstein
-
-
-Em seguida, execute o arquivo principal com o comando:
-
-python main.py
-
-
-Os resultados do processamento (acertos, aproveitamento individual e média geral) serão exibidos diretamente no terminal.
+**Passo 5:** Os resultados do processamento (acertos, aproveitamento individual e média geral) serão exibidos diretamente no terminal.
